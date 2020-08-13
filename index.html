@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang ="en">
+  <meta charset="UTF-8">
+  <title>test</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+<div class="blank">
+
+</div>
+<div class="main">
+  <div class="top">
+    <img src="images/logo.png" id="img">
+  </div>
+
+  <div class="bottom">
+    <div class="bottom_left">
+      <div class="bottom_left_top">
+        Welcome to SCS - Social Chat System<br>
+      </div>
+      <div class="bottom_left_bottom">
+        1. Choose a topic you want to chat<br>
+        2. Join a Channel<br>
+        3. We will randomly choose a post from other SNS related to the topic<br>
+        4. Start talking to the group of people who share the same interest !
+      </div>
+    </div>
+  <div class="bottom_right">
+    <form class="login" action="db.php" method="post">
+      <div class="header"><h2>LOG IN</h2></div>
+      <div class="idBar">
+        <label for="id" name="id"></label>
+        <input type="text" placeholder=" Enter username" name="id_name" class="idBox" required>
+      </div>
+
+      <div class="passwordBar">
+        <label for="password" name="password"></label>
+        <input type="text" placeholder=" Enter password" name="password_name" class="passwordBox" required>
+      </div>
+      <div class="loginbutton">
+        <button type="submit" class="loginBut" id="login_Button" name="log_but">Login</button>
+      </div>
+      <div class="signup_Bar">
+        <button type="button" id="signupID">Sign Up</button>
+      </div>
+    </form>
+
+  </div>
+</div>
+
+
+
+</div>
+
+
+</body>
+
+
+</html>

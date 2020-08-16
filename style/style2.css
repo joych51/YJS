@@ -95,15 +95,48 @@ button:focus {
     display:flex;
 }
 #bottom_left {
-    width: 60%;
+    width: 57%;
     height: 100%;
-    border: solid 1px #000000;
+    display: flex;
 }
+#page_div {
+    width: 200px;
+    height: 100px;
+    text-align:center;
+    padding-top: 30px;
+    margin-left: 360px;
+}
+
+#page_div button {
+    width: 25px;
+    height: 25px;
+    border-radius: 15px;
+    background: #e5dbdb;
+    border: none;
+    margin-left: 10px;
+}
+#bottom_left button:hover {
+    background: #7e7979;
+}
+
 #bottom_right {
     width: 40%;
     height: 100%;
-    border: solid 1px #000000;
 }
+
+#next_button {
+    border: none;
+    background: #e5dbdb;
+    border-radius: 15px;
+    width: 80px;
+    height:25px;
+    margin-top: 30px;
+}
+
+#next_button:hover {
+    background: #7e7979;
+}
+
 #right {
     width: 20%;
     height: 113%;

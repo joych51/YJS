@@ -2,6 +2,9 @@
 
 function send() {
   var text = document.getElementById("chattingBox").value;
-  document.getElementsByClassName("mid_top").innerText += text;
-  alert(text);
+  document.getElementById("textBox").innerHTML += `<br>`;
+  document.getElementById("textBox").innerText += text;
+
+  document.getElementById("chattingBox").value ="";
+
 }
